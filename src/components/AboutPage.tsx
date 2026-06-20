@@ -1,4 +1,6 @@
 import { Store, ShieldCheck } from 'lucide-react';
+import workshop1 from '../assets/images/sanjay_workshop_1_1781943633823.jpg';
+import workshop2 from '../assets/images/sanjay_workshop_2_1781943651083.jpg';
 
 export default function AboutPage() {
   return (
@@ -37,7 +39,7 @@ export default function AboutPage() {
           
           <div className="relative">
             <img 
-              src="/src/assets/images/sanjay_workshop_1_1781943633823.jpg" 
+              src={workshop1} 
               alt="Sanjay Mobile Store Counter with Gold Accents" 
               className="rounded-2xl shadow-xl border border-slate-700/50 w-full object-cover h-[350px]"
             />
@@ -130,7 +132,7 @@ export default function AboutPage() {
 
             <div className="group overflow-hidden rounded-xl bg-slate-850 aspect-video relative">
               <img 
-                src="/src/assets/images/sanjay_workshop_2_1781943651083.jpg" 
+                src={workshop2} 
                 alt="Hygienic gold dust-free lamination chamber" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
               />

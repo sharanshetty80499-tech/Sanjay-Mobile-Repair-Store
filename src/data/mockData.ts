@@ -284,7 +284,7 @@ export const REPAIR_WORK_PHOTOS = [
     id: 'photo-2',
     title: 'Expert Screen Fitting',
     category: 'Restoration',
-    url: '/src/assets/images/expert_screen_fitting_1781943615800.jpg',
+    url: '/assets/images/expert_screen_fitting_1781943615800.jpg',
     description: 'Replacing a shattered OnePlus screen with a fresh OLED display.'
   },
   {

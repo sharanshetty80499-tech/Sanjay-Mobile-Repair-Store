@@ -11,10 +11,17 @@ import FAQPage from './components/FAQPage';
 import ContactPage from './components/ContactPage';
 import AdminDashboard from './components/AdminDashboard';
 import { STORE_CONTACT } from './data/mockData';
+import logoImg from './assets/images/sanjay_repair_logo_1781948395254.jpg';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleTabChange = (tab: string) => {
+    React.startTransition(() => {
+      setActiveTab(tab);
+    });
+  };
   
   // Real-time server state holders
   const [products, setProducts] = useState<Product[]>([]);
@@ -70,12 +77,12 @@ export default function App() {
             
             {/* Elegant Golden Logo Group */}
             <div 
-              onClick={() => { setActiveTab('home'); }}
+              onClick={() => { handleTabChange('home'); }}
               className="flex items-center gap-2.5 cursor-pointer group animate-fade-in"
             >
               <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-amber-400/30 shadow-lg transform group-hover:scale-105 transition-all bg-black shrink-0">
                 <img 
-                  src="/src/assets/images/sanjay_repair_logo_1781948395254.jpg" 
+                  src={logoImg} 
                   alt="Sanjay Mobile & Repair Store Logo" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -94,43 +101,43 @@ export default function App() {
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-slate-300">
               <button 
-                onClick={() => setActiveTab('home')} 
+                onClick={() => handleTabChange('home')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'home' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Home
               </button>
               <button 
-                onClick={() => setActiveTab('services')} 
+                onClick={() => handleTabChange('services')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'services' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Repairs
               </button>
               <button 
-                onClick={() => setActiveTab('pricing')} 
+                onClick={() => handleTabChange('pricing')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'pricing' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Cost Estimations
               </button>
               <button 
-                onClick={() => setActiveTab('gallery')} 
+                onClick={() => handleTabChange('gallery')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'gallery' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Our Work
               </button>
               <button 
-                onClick={() => setActiveTab('testimonials')} 
+                onClick={() => handleTabChange('testimonials')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'testimonials' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Reviews
               </button>
               <button 
-                onClick={() => setActiveTab('about')} 
+                onClick={() => handleTabChange('about')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'about' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Our Journey
               </button>
               <button 
-                onClick={() => setActiveTab('contact')} 
+                onClick={() => handleTabChange('contact')} 
                 className={`px-3.5 py-2 rounded-lg hover:text-gold-400 transition-all ${activeTab === 'contact' ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 shadow-[0_0_12px_rgba(212,175,55,0.05)]' : 'border border-transparent'}`}
               >
                 Contact
@@ -160,7 +167,7 @@ export default function App() {
             {['home', 'services', 'pricing', 'gallery', 'testimonials', 'about', 'contact'].map((tab) => (
               <button
                 key={tab}
-                onClick={() => { setActiveTab(tab); setMobileMenuOpen(false); }}
+                onClick={() => { handleTabChange(tab); setMobileMenuOpen(false); }}
                 className={`py-2 text-left px-2 rounded-lg hover:bg-zinc-900 transition-all ${activeTab === tab ? 'text-gold-400 bg-gold-500/10 border border-gold-500/20 font-bold' : 'text-slate-300'}`}
               >
                 {tab === 'services' ? 'Repairs' : tab === 'testimonials' ? 'Reviews' : tab === 'about' ? 'History' : tab}
@@ -404,17 +411,17 @@ export default function App() {
           <div className="space-y-2">
             <h4 className="font-extrabold uppercase tracking-wider text-slate-200 text-[11px] font-mono">Popular Specialties</h4>
             <div className="space-y-1 text-slate-400">
-              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => setActiveTab('services')}>Screen & Touch Refit</span>
-              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => setActiveTab('services')}>Original Batteries</span>
-              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => setActiveTab('services')}>High Frequency Descaling</span>
+              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => handleTabChange('services')}>Screen & Touch Refit</span>
+              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => handleTabChange('services')}>Original Batteries</span>
+              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => handleTabChange('services')}>High Frequency Descaling</span>
             </div>
           </div>
 
           <div className="space-y-2">
             <h4 className="font-extrabold uppercase tracking-wider text-slate-200 text-[11px] font-mono">Customer Desk</h4>
             <div className="space-y-1 text-slate-400">
-              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => setActiveTab('pricing')}>Cost Estimations</span>
-              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => setActiveTab('about')}>Our Journey</span>
+              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => handleTabChange('pricing')}>Cost Estimations</span>
+              <span className="block hover:text-gold-400 cursor-pointer" onClick={() => handleTabChange('about')}>Our Journey</span>
             </div>
           </div>
 
