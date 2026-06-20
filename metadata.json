@@ -1,0 +1,10 @@
+{
+  "name": "Sanjay Mobile & Repair Store",
+  "description": "Full-stack web application and mobile emulator for Sanjay Mobile Store in Andheri East, Mumbai, featuring repair bookings, product catalogs, Gemini AI repair diagnostics, and an admin analytics dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

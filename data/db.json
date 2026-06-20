@@ -1,0 +1,305 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "iPhone 15 Pro Max (256GB - Blue Titanium)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "price": 139900,
+      "originalPrice": 159900,
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=400",
+      "stock": 5,
+      "specs": [
+        "6.7-inch Super Retina XDR display featuring ProMotion",
+        "Titanium with textured matte glass back",
+        "A17 Pro chip with 6-core GPU",
+        "Pro camera system: 48MP Main | Ultra Wide | Telephoto",
+        "USB-C support for USB 3"
+      ],
+      "description": "The ultimate iPhone model featuring a lightweight titanium design, advanced 5x Telephoto camera, and the blazing fast A17 Pro chip.",
+      "isPopular": true
+    },
+    {
+      "id": "prod-2",
+      "name": "OnePlus 12 (16GB RAM + 512GB - Silky Black)",
+      "category": "smartphones",
+      "brand": "OnePlus",
+      "price": 64999,
+      "originalPrice": 69999,
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=400",
+      "stock": 8,
+      "specs": [
+        "6.82-inch 2K Oriental AMOLED display",
+        "Snapdragon 8 Gen 3 Mobile Platform",
+        "50MP Sony LYT-808 main camera with Hasselblad calibration",
+        "5400 mAh battery with 100W SUPERVOOC charging"
+      ],
+      "description": "Equipped with the top-tier Snapdragon 8 Gen 3, Hasselblad mobile camera, and groundbreaking ultra-fast charging.",
+      "isPopular": true
+    },
+    {
+      "id": "prod-3",
+      "name": "Samsung Galaxy S24 Ultra (5G, 12GB+256GB)",
+      "category": "smartphones",
+      "brand": "Samsung",
+      "price": 129999,
+      "originalPrice": 134999,
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=400",
+      "stock": 4,
+      "specs": [
+        "6.8-inch Dynamic AMOLED 2X display with embedded S Pen",
+        "Snapdragon 8 Gen 3 for Galaxy",
+        "200MP Quad Telephoto camera with 100x Space Zoom",
+        "Galaxy AI features: Live Translate, Circle to Search"
+      ],
+      "description": "Unleash new levels of creativity and productivity with Galaxy AI tools alongside a titanium frame and amazing 100x zoom.",
+      "isPopular": true
+    },
+    {
+      "id": "prod-4",
+      "name": "Samsung Galaxy A35 5G (8GB+128GB - Awesome Lilac)",
+      "category": "smartphones",
+      "brand": "Samsung",
+      "price": 27999,
+      "originalPrice": 30999,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400",
+      "stock": 12,
+      "specs": [
+        "6.6-inch FHD+ Super AMOLED 120Hz",
+        "Exynos 1380 processor",
+        "50MP OIS Triple camera",
+        "IP67 Dust and Water Resistant"
+      ],
+      "description": "High-value smartphone with premium design, glass back, Knox Security, and outstanding water resistance.",
+      "isPopular": false
+    },
+    {
+      "id": "prod-5",
+      "name": "Spigen Tough Armor Case (for iPhone 15 Pro Max)",
+      "category": "accessories",
+      "brand": "Spigen",
+      "price": 2499,
+      "originalPrice": 3499,
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&q=80&w=400",
+      "stock": 25,
+      "specs": [
+        "Dual-layer protection made of flexible TPU and rigid PC",
+        "Air Cushion Technology for shock absorption",
+        "Built-in kickstand for hands-free viewing"
+      ],
+      "description": "Sleek yet durable case providing top-tier military-grade protection for your expensive iPhone.",
+      "isPopular": true
+    },
+    {
+      "id": "prod-6",
+      "name": "Apple 20W USB-C Power Adapter (Original)",
+      "category": "accessories",
+      "brand": "Apple",
+      "price": 1699,
+      "originalPrice": 1900,
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400",
+      "stock": 50,
+      "specs": [
+        "Fast charging support for compatible iPhone models",
+        "Recommended for charging iPad Pro and iPad Air",
+        "Pairs with USB-C to Lightning / USB-C cables"
+      ],
+      "description": "Original Apple 20W power adapter for safe, fast, and highly reliable charging of Apple ecosystem products.",
+      "isPopular": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1781947392713",
+      "userId": "cust-demo",
+      "customerName": "sharan shetty",
+      "rating": 5,
+      "comment": "good experience ",
+      "deviceWorkedOn": "iphone 15",
+      "isVerifiedPurchase": true,
+      "createdAt": "2026-06-20T09:23:12.713Z"
+    },
+    {
+      "id": "rev-1781946967429",
+      "userId": "cust-demo",
+      "customerName": "raj pawar",
+      "rating": 5,
+      "comment": "good experience",
+      "deviceWorkedOn": "samsung S26 ultra ",
+      "isVerifiedPurchase": true,
+      "createdAt": "2026-06-20T09:16:07.429Z"
+    },
+    {
+      "id": "rev-1781946845161",
+      "userId": "cust-demo",
+      "customerName": "sharan shetty",
+      "rating": 5,
+      "comment": "good experience ",
+      "deviceWorkedOn": "Iphone 17 pro MAX repair",
+      "isVerifiedPurchase": true,
+      "createdAt": "2026-06-20T09:14:05.161Z"
+    },
+    {
+      "id": "rev-1",
+      "customerName": "Abhishek Pandey",
+      "rating": 5,
+      "comment": "Realme 11 x display acche bhav mein yahan per milta Hai ekadam kam Dam mein aap bhi aaiae aapke Parivar ka bhi kuchh bhi mobile related work rahega to yahi per aana Sanjay mobile store.",
+      "deviceWorkedOn": "Realme 11x Display Replacement",
+      "isVerifiedPurchase": true,
+      "replyFromOwner": "Shukriya Abhishek ji! Aapke parivar ka koi bhi kaam ho, hum hamesha saste aur ache daam mein original display bitaenge.",
+      "createdAt": "2026-06-19T09:10:34.189Z"
+    },
+    {
+      "id": "rev-2",
+      "customerName": "Rohit sandil",
+      "rating": 5,
+      "comment": "Realme 12 x display yahan se repair Kiya acche rate mein good condition wah bhi airport DGCA office ke saamne hi hai.",
+      "deviceWorkedOn": "Realme 12x Display Repair",
+      "isVerifiedPurchase": true,
+      "replyFromOwner": "Thank you Rohit! Yes, our shop is directly opposite the DGCA office on Sahar Road, extremely easy to find.",
+      "createdAt": "2026-06-17T09:10:34.190Z"
+    },
+    {
+      "id": "rev-3",
+      "customerName": "Dhananjay Singh",
+      "rating": 5,
+      "comment": "Vivo y200 original display folder yaha se repair karwaya affordable rate me",
+      "deviceWorkedOn": "Vivo Y200 Original Folder",
+      "isVerifiedPurchase": true,
+      "replyFromOwner": "Dhananjay ji, bahuta dhanyawad! Hum 100% genuine folder fittings hi dete hain taki organic resolution bani rahe.",
+      "createdAt": "2026-06-15T09:10:34.190Z"
+    },
+    {
+      "id": "rev-4",
+      "customerName": "Prasad More",
+      "rating": 5,
+      "comment": "Realme 8 display achcha quality ka milta Hai yahan per acche rate mein aap bhi yah shop ek bar TRY kijiye.",
+      "deviceWorkedOn": "Realme 8 Display Quality Fitting",
+      "isVerifiedPurchase: true,
+      "replyFromOwner": "Thank you Prasad bhai! Hamesha try karne ke liye aate rahiye, standard rates hi milenge hamesha.",
+      "createdAt": "2026-06-13T09:10:34.190Z"
+    },
+    {
+      "id": "rev-5",
+      "customerName": "Sweeta Chaurasiya",
+      "rating": 5,
+      "comment": "Power bank yaha se liya 12000mah ka rs 999 me",
+      "deviceWorkedOn": "12000mAh Power Bank Purchase",
+      "isVerifiedPurchase": true,
+      "replyFromOwner": "Thanks Sweeta! 12000mAh original backup power bank high grade output ke saath dukan par humesha live milta hai.",
+      "createdAt": "2026-06-11T09:10:34.190Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "SJB-10024",
+      "userId": "cust-demo",
+      "customerName": "Rajesh Kulkarni",
+      "customerPhone": "+91 99300 12345",
+      "customerEmail": "rajesh.k@gmail.com",
+      "deviceBrand": "OnePlus",
+      "deviceModel": "11R 5G",
+      "issueType": "screen",
+      "issueDescription": "Cracked the screen while getting off the local train at Andheri station.",
+      "estimatedCost": 6500,
+      "status": "diagnosing",
+      "scheduledDate": "2026-06-21",
+      "scheduledSlot": "12:00 PM - 02:00 PM",
+      "timeline": [
+        {
+          "status": "booked",
+          "notes": "Repair booking placed via website.",
+          "timestamp": "2026-06-19T21:10:34.190Z"
+        },
+        {
+          "status": "assigned",
+          "notes": "Assigned to senior hardware technician Anil.",
+          "timestamp": "2026-06-20T01:10:34.190Z"
+        },
+        {
+          "status": "diagnosing",
+          "notes": "Inspecting frame damage and connector cables.",
+          "timestamp": "2026-06-20T05:10:34.190Z"
+        }
+      ],
+      "notes": "Prioritized urgent repair.",
+      "createdAt": "2026-06-19T21:10:34.190Z",
+      "updatedAt": "2026-06-20T05:10:34.190Z"
+    },
+    {
+      "id": "SJB-10025",
+      "userId": "cust-demo",
+      "customerName": "Aishwarya Nair",
+      "customerPhone": "+91 98199 87654",
+      "customerEmail": "aishwarya.n@yahoo.com",
+      "deviceBrand": "Apple",
+      "deviceModel": "iPhone 13",
+      "issueType": "battery",
+      "issueDescription": "Battery health drops to 74% and drains complete charge in 3 hours.",
+      "estimatedCost": 3200,
+      "status": "ready",
+      "scheduledDate": "2026-06-20",
+      "scheduledSlot": "10:00 AM - 12:00 PM",
+      "timeline": [
+        {
+          "status": "booked",
+          "notes": "Booking initialized.",
+          "timestamp": "2026-06-19T09:10:34.190Z"
+        },
+        {
+          "status": "assigned",
+          "notes": "Assigned to repair bay 3.",
+          "timestamp": "2026-06-19T13:10:34.190Z"
+        },
+        {
+          "status": "diagnosing",
+          "notes": "Confirming high battery resistance cycles.",
+          "timestamp": "2026-06-19T15:10:34.190Z"
+        },
+        {
+          "status": "ready",
+          "notes": "Original Apple layout high capacity battery installed. All tests passed. Device ready for pickup.",
+          "timestamp": "2026-06-20T08:10:34.190Z"
+        }
+      ],
+      "notes": "Keep transparent guard intact.",
+      "createdAt": "2026-06-19T09:10:34.190Z",
+      "updatedAt": "2026-06-20T08:10:34.190Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "SJO-50012",
+      "userId": "cust-demo",
+      "customerName": "Deepak Sawant",
+      "customerPhone": "+91 97690 11223",
+      "items": [
+        {
+          "productId": "prod-6",
+          "name": "Apple 20W USB-C Power Adapter (Original)",
+          "price": 1699,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=400"
+        }
+      ],
+      "totalAmount": 1699,
+      "status": "delivered",
+      "paymentStatus": "paid",
+      "paymentMethod": "UPI",
+      "shippingAddress": "Flat 202, Gokul Heights, Sahar Road, Andheri East, Mumbai 400069",
+      "createdAt": "2026-06-17T09:10:34.190Z",
+      "updatedAt": "2026-06-18T09:10:34.190Z"
+    }
+  ],
+  "payments": [],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "Welcome to Sanjay Mobile Store",
+      "body": "Your high-fidelity local repair partner in Andheri East, Mumbai. Book screen, battery, or software repairs now.",
+      "type": "general",
+      "isRead": false,
+      "createdAt": "2026-06-20T09:14:05.161Z"
+    }
+  ]
+}

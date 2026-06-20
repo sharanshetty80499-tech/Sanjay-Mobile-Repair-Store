@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-gold-50: #fefdf8;
+  --color-gold-100: #fcf8e5;
+  --color-gold-200: #f9f1c2;
+  --color-gold-300: #edd7a2;
+  --color-gold-400: #dfba5c;
+  --color-gold-500: #d4af37; /* Pure Royal Gold */
+  --color-gold-600: #bf9b30;
+  --color-gold-700: #a37f22;
+  --color-gold-800: #7a5f15;
+  --color-gold-900: #543f0c;
+  --color-gold-950: #1b1402;
+}
+
+@layer base {
+  body {
+    background-color: #050505; /* Sleek Pitch Black */
+    color: #e5dec9; /* Champagne Cream body text */
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
